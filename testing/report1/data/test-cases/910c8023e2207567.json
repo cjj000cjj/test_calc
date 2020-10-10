@@ -1,0 +1,76 @@
+{
+  "uid" : "910c8023e2207567",
+  "name" : "整数减法",
+  "fullName" : "test_calc.TestCalc#test_calc4",
+  "historyId" : "fa3bf6cb0385ec49e59a08d81ec0f938",
+  "time" : {
+    "start" : 1602215138068,
+    "stop" : 1602215138068,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "整数减法"
+  }, {
+    "name" : "feature",
+    "value" : "计算器加法测试"
+  }, {
+    "name" : "tag",
+    "value" : "sub"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc"
+  }, {
+    "name" : "host",
+    "value" : "MS-202009291018"
+  }, {
+    "name" : "thread",
+    "value" : "11852-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "2"
+  }, {
+    "name" : "b",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "81fc5bea4c317411",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602211669561,
+        "stop" : 1602211669561,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "sub" ]
+  },
+  "source" : "910c8023e2207567.json",
+  "parameterValues" : [ "2", "1" ]
+}

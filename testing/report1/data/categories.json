@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 3.3 == 3.3000000000000003\n  +3.3\n  -3.3000000000000003",
+      "children" : [ {
+        "name" : "计算器加法功能测试",
+        "uid" : "cd5c03e6170abc8d",
+        "parentUid" : "8690d75c5f62150a8dee1d005fe9e2b1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602215137962,
+          "stop" : 1602215137963,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8690d75c5f62150a8dee1d005fe9e2b1"
+    }, {
+      "name" : "AssertionError: assert (0 == 0.05\n  +0\n  -0.05 or -3 == 0.05\n  +-3\n  -0.05 or 0.01 == 0.05\n  +0.01\n  -0.05)",
+      "children" : [ {
+        "name" : "整数减法",
+        "uid" : "b01849dd6054646",
+        "parentUid" : "aaef8cdb5534dc92d53728670a8c25e3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602215874376,
+          "stop" : 1602215874377,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0.1", "0.05" ]
+      } ],
+      "uid" : "aaef8cdb5534dc92d53728670a8c25e3"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

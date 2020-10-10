@@ -1,0 +1,121 @@
+[ {
+  "uid" : "8a6de2196ad51169",
+  "name" : "整数减法",
+  "time" : {
+    "start" : 1602215874360,
+    "stop" : 1602215874360,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "910c8023e2207567",
+  "name" : "整数减法",
+  "time" : {
+    "start" : 1602215138068,
+    "stop" : 1602215138068,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c87deab502769b3e",
+  "name" : "整数减法",
+  "time" : {
+    "start" : 1602215138074,
+    "stop" : 1602215138075,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd5c03e6170abc8d",
+  "name" : "计算器加法功能测试",
+  "time" : {
+    "start" : 1602215137962,
+    "stop" : 1602215137963,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb07c959b8a0f0fc",
+  "name" : "小数加法",
+  "time" : {
+    "start" : 1602215138046,
+    "stop" : 1602215138046,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17b36c16487f2f14",
+  "name" : "整数减法",
+  "time" : {
+    "start" : 1602215138061,
+    "stop" : 1602215138061,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be4869f2afd5fb8a",
+  "name" : "小数加法",
+  "time" : {
+    "start" : 1602215138051,
+    "stop" : 1602215138051,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93034db4929f7a34",
+  "name" : "整数加法",
+  "time" : {
+    "start" : 1602215137958,
+    "stop" : 1602215137958,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b01849dd6054646",
+  "name" : "整数减法",
+  "time" : {
+    "start" : 1602215874376,
+    "stop" : 1602215874377,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7201d0e5f1308c9f",
+  "name" : "小数加法",
+  "time" : {
+    "start" : 1602215138056,
+    "stop" : 1602215138056,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f8d9a627e3d97e",
+  "name" : "整数减法",
+  "time" : {
+    "start" : 1602215874305,
+    "stop" : 1602215874305,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b70a7a75603c4cf5",
+  "name" : "整数加法",
+  "time" : {
+    "start" : 1602215137948,
+    "stop" : 1602215137948,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

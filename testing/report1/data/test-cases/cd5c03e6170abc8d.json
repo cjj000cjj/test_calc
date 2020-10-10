@@ -1,0 +1,71 @@
+{
+  "uid" : "cd5c03e6170abc8d",
+  "name" : "计算器加法功能测试",
+  "fullName" : "test_calc.TestCalc#test_calc2",
+  "historyId" : "e9ebce8320a00e9b92110fb402c9e2fe",
+  "time" : {
+    "start" : 1602215137962,
+    "stop" : 1602215137963,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 3.3 == 3.3000000000000003\n  +3.3\n  -3.3000000000000003",
+  "statusTrace" : "self = <testing.test_calc.TestCalc object at 0x035E5C28>\n\n    def test_calc2(self):\n        # 调用相加add()方法\n        result = self.calc.add(1.1, 2.2)\n        # 断言 判断是否满足预期结果\n>       assert 3.3 == result\nE       assert 3.3 == 3.3000000000000003\nE         +3.3\nE         -3.3000000000000003\n\ntest_calc.py:40: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "计算器加法测试"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc"
+  }, {
+    "name" : "host",
+    "value" : "MS-202009291018"
+  }, {
+    "name" : "thread",
+    "value" : "11852-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "95f49769013e91bf",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 3.3 == 3.3000000000000003\n  +3.3\n  -3.3000000000000003",
+      "time" : {
+        "start" : 1602211669433,
+        "stop" : 1602211669434,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cd5c03e6170abc8d.json",
+  "parameterValues" : [ ]
+}

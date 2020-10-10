@@ -1,0 +1,177 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "计算器加法测试",
+    "children" : [ {
+      "name" : "整数加法",
+      "children" : [ {
+        "name" : "整数加法",
+        "uid" : "b70a7a75603c4cf5",
+        "parentUid" : "d9450c92157ad67f7f9b02dab6d833fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602215137948,
+          "stop" : 1602215137948,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "2" ]
+      }, {
+        "name" : "整数加法",
+        "uid" : "93034db4929f7a34",
+        "parentUid" : "d9450c92157ad67f7f9b02dab6d833fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602215137958,
+          "stop" : 1602215137958,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "4" ]
+      } ],
+      "uid" : "d9450c92157ad67f7f9b02dab6d833fc"
+    }, {
+      "name" : "计算器加法功能测试",
+      "uid" : "cd5c03e6170abc8d",
+      "parentUid" : "eed0760611f71278fca10032801fdd35",
+      "status" : "failed",
+      "time" : {
+        "start" : 1602215137962,
+        "stop" : 1602215137963,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "小数加法",
+      "children" : [ {
+        "name" : "小数加法",
+        "uid" : "cb07c959b8a0f0fc",
+        "parentUid" : "5c28fb4a3901eb5b72fa1489f06b5828",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602215138046,
+          "stop" : 1602215138046,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0.0", "0.0" ]
+      }, {
+        "name" : "小数加法",
+        "uid" : "be4869f2afd5fb8a",
+        "parentUid" : "5c28fb4a3901eb5b72fa1489f06b5828",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602215138051,
+          "stop" : 1602215138051,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1.2", "1.3" ]
+      }, {
+        "name" : "小数加法",
+        "uid" : "7201d0e5f1308c9f",
+        "parentUid" : "5c28fb4a3901eb5b72fa1489f06b5828",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602215138056,
+          "stop" : 1602215138056,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0.01", "2" ]
+      } ],
+      "uid" : "5c28fb4a3901eb5b72fa1489f06b5828"
+    }, {
+      "name" : "整数减法",
+      "children" : [ {
+        "name" : "整数减法",
+        "uid" : "17b36c16487f2f14",
+        "parentUid" : "ed89f0fd40f474ca2c6c23157049ec11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602215138061,
+          "stop" : 1602215138061,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "2" ]
+      }, {
+        "name" : "整数减法",
+        "uid" : "910c8023e2207567",
+        "parentUid" : "ed89f0fd40f474ca2c6c23157049ec11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602215138068,
+          "stop" : 1602215138068,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2", "1" ]
+      }, {
+        "name" : "整数减法",
+        "uid" : "c87deab502769b3e",
+        "parentUid" : "ed89f0fd40f474ca2c6c23157049ec11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602215138074,
+          "stop" : 1602215138075,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "0" ]
+      }, {
+        "name" : "整数减法",
+        "uid" : "6f8d9a627e3d97e",
+        "parentUid" : "ed89f0fd40f474ca2c6c23157049ec11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602215874305,
+          "stop" : 1602215874305,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2", "2" ]
+      }, {
+        "name" : "整数减法",
+        "uid" : "8a6de2196ad51169",
+        "parentUid" : "ed89f0fd40f474ca2c6c23157049ec11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602215874360,
+          "stop" : 1602215874360,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "-2", "1" ]
+      }, {
+        "name" : "整数减法",
+        "uid" : "b01849dd6054646",
+        "parentUid" : "ed89f0fd40f474ca2c6c23157049ec11",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602215874376,
+          "stop" : 1602215874377,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0.1", "0.05" ]
+      } ],
+      "uid" : "ed89f0fd40f474ca2c6c23157049ec11"
+    } ],
+    "uid" : "eed0760611f71278fca10032801fdd35"
+  } ]
+}

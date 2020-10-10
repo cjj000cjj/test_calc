@@ -1,0 +1,66 @@
+{
+  "uid" : "95a7c3e6015576c0",
+  "name" : "test_calc3[0.0-0.0]",
+  "fullName" : "test_calc.TestCalc#test_calc3",
+  "historyId" : "54faa189079c0ee96268af526abb5356",
+  "time" : {
+    "start" : 1602211669529,
+    "stop" : 1602211669530,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "计算器加法测试"
+  }, {
+    "name" : "story",
+    "value" : "小数加法"
+  }, {
+    "name" : "tag",
+    "value" : "add"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc"
+  }, {
+    "name" : "host",
+    "value" : "MS-202009291018"
+  }, {
+    "name" : "thread",
+    "value" : "8252-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "0.0"
+  }, {
+    "name" : "b",
+    "value" : "0.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "add" ]
+  },
+  "source" : "95a7c3e6015576c0.json",
+  "parameterValues" : [ "0.0", "0.0" ]
+}
