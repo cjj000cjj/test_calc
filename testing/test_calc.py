@@ -39,25 +39,35 @@ class TestCalc:
     # pytest参数化
     @pytest.mark.parametrize("a,b,expect", adddata, ids=addid)
     def test_addcalc(self, a, b, expect):
-        # 调用相加add()方法
-        result = self.calc.add(a, b)
-        # 避免浮点运算误差
-        if isinstance(result, float):
-            result = round(result, 2)
-        # 断言参数化
+        # 判断是否为数值
+        if isinstance(a, str) or isinstance(b, str):
+            raise Exception("不支持字符串")
+            return
+        else:
+            # 调用相加add()方法
+            result = self.calc.add(a, b)
+            # 避免浮点运算误差
+            if isinstance(result, float):
+                result = round(result, 2)
+            # 断言参数化
         assert expect == result
 
     # 除法参数化
     @pytest.mark.parametrize("a,b,expected", divdata, ids=divid)
     def test_divcalc(self, a, b, expected):
-        if b != 0:
-            # 调用相除div()方法
-            result = self.calc.div(a, b)
-            # 避免浮点运算误差
-            if isinstance(result, float):
-                result = round(result, 2)
-                # 断言参数化
-                assert expected == result
+        # 判断是否为数值
+        if isinstance(a, str) or isinstance(b, str):
+            raise Exception("不支持字符串")
+            return
         else:
-            # 除数为0时抛出异常
-            raise Exception("除数不能为0")
+            if b == 0:
+                # 除数为0时抛出异常
+                raise Exception("除数不能为0")
+            else:
+                # 调用相除div()方法
+                result = self.calc.div(a, b)
+                # 避免浮点运算误差
+                if isinstance(result, float):
+                    result = round(result, 2)
+                    # 断言参数化
+                    assert expected == result
